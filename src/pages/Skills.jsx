@@ -1,6 +1,6 @@
-const Features = () => {
+const Skills = () => {
     return (
-        <div className="Features" style={{padding: '4em 0em',
+        <div className="Skills" style={{padding: '4em 0em',
             background: 'gold',}}>
             <div style={{textAlign: 'justify',
             padding: '4em', width: '30%', margin: 'auto',}}>
@@ -24,4 +24,4 @@ const Features = () => {
 }
 
 
-export default Features
+export default Skills

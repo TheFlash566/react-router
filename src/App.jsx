@@ -5,7 +5,9 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
-import Features from './pages/Features';
+import Skills from './pages/Skills';
+import LearnMore from './pages/LearnMore';
+
 
 function App() {
 
@@ -16,10 +18,11 @@ function App() {
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="contact" element={<Contact />} />
-            <Route path='features' element={< Features/>} />
+            <Route path='skills' element={< Skills/>} />
+            <Route path='learnMore' element={< LearnMore/>} />
             <Route path="*" element={<NoPage />} />
           </Route>
-        </Routes>
+        </Routes> 
     </BrowserRouter>
   )
 }

@@ -16,7 +16,7 @@ const Layout = () => {
             <Link style={{textDecoration: 'none', color: 'black',}} to="/blogs">Blog</Link>
           </li>
           <li>
-            <Link style={{textDecoration: 'none', color: 'black',}} to="/features">Skills</Link>
+            <Link style={{textDecoration: 'none', color: 'black',}} to="/skills">Skills</Link>
           </li>
           <li>
             <Link style={{textDecoration: 'none', color: 'black',}} to="/contact">Contact</Link>

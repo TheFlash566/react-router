@@ -1,13 +1,13 @@
 import Blogs from "./Blogs";
 import Contact from "./Contact";
-import Features from "./Features";
+import Skills from "./Skills";
 
 const Home = () => {
     return (
         <div className="homepage">
             <div>
                 <Blogs />
-                < Features />
+                < Skills />
                 <Contact />
             </div>
         </div>
